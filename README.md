@@ -15,15 +15,3 @@
 
 ## 爬取结果
 >data01.csv
-
->dara02.csv
-
->dara03.csv
-
->dara04.csv
-
->dara05.csv
-
->dara06.csv
-
->dara07.csv
