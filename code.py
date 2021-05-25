@@ -15,6 +15,7 @@ import csv
 # from google.colab import auth
 # from oauth2client.client import GoogleCredentials
 
+# 爬取所有搜索页面的url
 def url_load(url):
     print(url)
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0'}
@@ -32,10 +33,11 @@ def url_load(url):
     prize_all = []
 
     
-
+    # 爬取各搜索页中各详情页的url
     for a in b:
         all_href = a.find_all('a',{"class":"product-image"})
         #print(all_href)
+        # 进入详情页，爬取各页面的详情参数
         for l in all_href:
             #print(l['href'])
             #list[] = l['href']
@@ -71,7 +73,7 @@ def url_load(url):
             
         #print(u)
 
-
+# 爬取详情页链接
 def printurl(url):
     print(url)
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0'}
@@ -88,7 +90,7 @@ def printurl(url):
 
     
     
-
+# 爬取详情页产品名称
 def printname(url):
     #print(url)
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0'}
@@ -109,7 +111,7 @@ def printname(url):
     
 
     
-
+# 爬取详情页产品的鞋码
 def printsize(url):
     #print(url)
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0'}
@@ -131,7 +133,7 @@ def printsize(url):
 
 
     
-
+# 爬取详情页产品的价格
 def printprize(url):
     #print(url)
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0'}
@@ -156,7 +158,8 @@ if __name__ == '__main__':
     
     # 以Air Jordan 1 为例
     url = 'https://www.stadiumgoods.com/air-jordan/air-jordan-1'
-    
+    # 开始爬取
     x = url_load(url)
+    # 分页面保存
     data_csv = pd.DataFrame(x)
     data_csv.to_csv("data01.csv",index=False,sep=',')
