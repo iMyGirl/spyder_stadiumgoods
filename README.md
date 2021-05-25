@@ -1,8 +1,10 @@
 # spyder_stadiumgoods
 # 爬取国外一球鞋网站<https://www.stadiumgoods.com>
 ## 写在前面
->该项目是于2019年于某鱼平台上接单，帮助开发的一个爬取球鞋网站<https://www.stadiumgoods.com>各商品数据的一个脚本
->感兴趣可联系<zidutian@gmail.com>
+>该项目是于2019年于某鱼平台上接单，帮助开发的一个爬取球鞋网站<https://www.stadiumgoods.com>各商品数据的一个脚本  
+>
+>感兴趣可联系<zidutian@gmail.com>  
+>
 >我的主页<https://imygirl.github.io/>
 
 ## 说明：
