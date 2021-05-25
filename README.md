@@ -31,4 +31,4 @@
 ## 爬取结果
 >data01.csv  
 
-<img src="https://github.com/iMyGirl/spyder_stadiumgoods/blob/main/data/data01.png" width="50%">
+<img src="https://github.com/iMyGirl/spyder_stadiumgoods/blob/main/data/data01.png" width="70%">
