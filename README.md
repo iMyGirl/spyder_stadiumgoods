@@ -16,4 +16,6 @@
 4. 主要通过BeautifulSoup数据包单线程爬取，分析url指向页面，伪装header爬取。
 
 ## 爬取结果
->data01.csv
+>data01.csv  
+
+![data01](https://github.com/iMyGirl/spyder_stadiumgoods/blob/main/data/data01.png</img>)
