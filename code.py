@@ -162,4 +162,4 @@ if __name__ == '__main__':
     x = url_load(url)
     # 分页面保存
     data_csv = pd.DataFrame(x)
-    data_csv.to_csv("data01.csv",index=False,sep=',')
+    data_csv.to_csv("data/data01.csv",index=False,sep=',')
