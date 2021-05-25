@@ -224,7 +224,8 @@ if __name__ == '__main__':
     print('Uploaded file with ID {}'.format(uploaded.get('id')))
 ```
 ### 运行结果
->2019年9月19日 下午9:30的执行输出
+```
+2019年9月19日 下午9:30的执行输出
 	Stream
 		https://www.stadiumgoods.com/air-jordan/air-jordan-1/page/1
 		https://www.stadiumgoods.com/air-jordan-1-low-travis-scott-cq4277-001
@@ -324,3 +325,4 @@ if __name__ == '__main__':
 		https://www.stadiumgoods.com/wmns-air-jordan-1-high-og-nrg-bv2613-600-bordeaux-lt-armory-blue
 		https://www.stadiumgoods.com/air-jordan-1-mid-gs-554725-061-black-infrared-23-white
 		Uploaded file with ID 19Yw-fgKevLDNFQOWFeALZU8ZuweQ9_sv
+```
